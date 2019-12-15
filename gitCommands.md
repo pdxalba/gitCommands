@@ -23,3 +23,7 @@ git log --oneline --graph --decorate --all   info on single line, graph of branc
 git config --global --list   List git's config entries
 
 git config --global alias.hist "log --oneline --graph --decorate --all"   Creates an alias calleg hist (with the command after)
+	then using git hist executes the same as everything that was defined in the alias
+	
+git mv <old filename> <new filename>   renames a file	(still need to commit after)
+git rm <filename> removes a file from git   (still need to commit after)
