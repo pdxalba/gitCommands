@@ -44,3 +44,4 @@ git checkout <branch name> Switches branch
 git merge <branch name>  Merges that branch into the branch you're in
 git branch -d <branch name>  delete branch
 
+ 
