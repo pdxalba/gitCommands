@@ -55,5 +55,5 @@ git push -u origin <local branch name>  pushing a branch to remote for the 1st t
 git push origin :<remote branch name>   deletes a branch from the remote repo.  Needs the ":" before the branch name
 
      
-rm -rf <local repo>    forecfully removes the local repo
+rm -rf <local repo>    forcefully removes the local repo
  
