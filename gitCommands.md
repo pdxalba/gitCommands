@@ -1,3 +1,5 @@
+git help <command>  eg log, commit, checkout   Pulls up documentation  C:\Program Files\Git\mingw64\share\doc\git-doc\
+
 touch <filename> create a new file from the command line
 
 git status
@@ -10,8 +12,6 @@ git log   log info on your commits
 
 git restore --staged <filename>  If you've git added a file and you want to revert it
 git checkout -- <filename> if you want to overwrite a local file
-
-git help <command>  eg log, commit, checkout   Pulls up doccumentation
 
 git log --oneline --graph --decorate --all   info on single line, graph of branching hierarchy, which commits are part of which branches, 
 											 history of all branches in the repo
@@ -32,3 +32,9 @@ git mv <old filename> <new filename>   renames a file	(still need to commit afte
 git rm <filename> removes a file from git   (still need to commit after)
 
 git add -u If a file has been deleted (outside git) this stages it (then you need to commit to delete)
+
+git diff  - tells you what's changed since last commit
+	can be used to compare different commits (if you include the commit details
+git difftool - goes into each file and shows you the changes since last commit
+	can be used to compare different commits (if you include the commit details
+
