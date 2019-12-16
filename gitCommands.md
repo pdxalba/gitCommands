@@ -49,6 +49,7 @@ git fetch   get latest changes from remote (non destructive - local changes aren
 git merge   merge changes in to remote (for the branch you're in)
 git pull    combines a fetch and merge (for the branch you're in)
 git pull --all  does a pull for all the branches you're tracking
+git pull --rebase  rewinds local branch,  brings in changes from github and then reapplies any changes on the local branch
 
 git push -u origin <local branch name>  pushing a branch to remote for the 1st time
 git push origin :<remote branch name>   deletes a branch from the remote repo.  Needs the ":" before the branch name
