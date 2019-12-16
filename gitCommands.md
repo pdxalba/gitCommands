@@ -25,7 +25,7 @@ git log --oneline --graph --decorate --all   info on single line, graph of branc
 
 git config --global --list   List git's config entries
 
-git config --global alias.hist "log --oneline --graph --decorate --all"   Creates an alias calleg hist (with the command after)
+git config --global alias.hist "log --oneline --graph --decorate --all"   Creates an alias called hist (with the command after)
 	then using git hist executes the same as everything that was defined in the alias
 	
 git mv <old filename> <new filename>   renames a file	(still need to commit after)
@@ -43,12 +43,15 @@ git checkout -b <new branch name>  creates a new branch and switches to it
 git checkout <branch name> Switches branch
 git merge <branch name>  Merges that branch into the branch you're in
 git branch -d <branch name>  delete branch
+git branch -a   lists all the branches   (local, staging and remote)
 
 git fetch   get latest changes from remote (non destructive - local changes aren't overwritten) could be a file or a branch
-git merge   merge changes in to remote
-git pull    combines a fetch and merge
+git merge   merge changes in to remote (for the branch you're in)
+git pull    combines a fetch and merge (for the branch you're in)
+git pull --all  does a pull for all the branches you're tracking
 
 git push -u origin <local branch name>  pushing a branch to remote for the 1st time
+git push origin :<remote branch name>   deletes a branch from the remote repo.  Needs the ":" before the branch name
 
      
 
