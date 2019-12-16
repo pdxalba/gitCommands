@@ -1,3 +1,5 @@
+touch <filename> create a new file from the command line
+
 git status
 git add .  or git add <filename.
 git commit -m "<comment>"   commits a new or changed file to git
@@ -11,7 +13,8 @@ git checkout -- <filename> if you want to overwrite a local file
 
 git help <command>  eg log, commit, checkout   Pulls up doccumentation
 
-git log --oneline --graph --decorate --all   info on single line, graph of branching hierarchy, which commits are part of which branches, history of all branches in the repo
+git log --oneline --graph --decorate --all   info on single line, graph of branching hierarchy, which commits are part of which branches, 
+											 history of all branches in the repo
 		Output would be :
 			* e198373 (HEAD -> master) updates and backouts
 			* 052605c express commit 2
@@ -27,3 +30,5 @@ git config --global alias.hist "log --oneline --graph --decorate --all"   Create
 	
 git mv <old filename> <new filename>   renames a file	(still need to commit after)
 git rm <filename> removes a file from git   (still need to commit after)
+
+git add -u If a file has been deleted (outside git) this stages it (then you need to commit to delete)
