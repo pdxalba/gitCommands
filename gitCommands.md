@@ -47,6 +47,9 @@ git branch -d <branch name>  delete branch
 git fetch   get latest changes from remote (non destructive - local changes aren't overwritten)
 git merge   merge changes in to remote
 git pull    combines a fetch and merge
+
+git push -u origin <local branch name>  pushing a branch to remote for the 1st time
+
      
 
  
