@@ -33,8 +33,14 @@ git rm <filename> removes a file from git   (still need to commit after)
 
 git add -u If a file has been deleted (outside git) this stages it (then you need to commit to delete)
 
-git diff  - tells you what's changed since last commit
+git diff   tells you what's changed since last commit
 	can be used to compare different commits (if you include the commit details
-git difftool - goes into each file and shows you the changes since last commit
+git difftool  goes into each file and shows you the changes since last commit
 	can be used to compare different commits (if you include the commit details
+	
+git branch   tells you what branch you are in 
+git checkout -b <new branch name>  creates a new branch and switches to it
+git checkout <branch name> Switches branch
+git merge <branch name>  Merges that branch into the branch you're in
+git branch -d <branch name>  delete branch
 
