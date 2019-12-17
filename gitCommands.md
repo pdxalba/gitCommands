@@ -54,6 +54,6 @@ git pull --rebase  rewinds local branch,  brings in changes from github and then
 git push -u origin <local branch name>  pushing a branch to remote for the 1st time
 git push origin :<remote branch name>   deletes a branch from the remote repo.  Needs the ":" before the branch name
 
-     
+rm *.orig  removes all .orig files from local      
 rm -rf <local repo>    forcefully removes the local repo
  
